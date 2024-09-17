@@ -1,0 +1,63 @@
+{
+	"a1qa (Itransition)": {
+		"position": "Software Tester",
+		"company": "a1qa (Itransition)",
+		"duration": "March, 2024 to July, 2024",
+		"Location": "Banani, Dhaka-1213",
+		"skills": [
+			"Carried out software product testing according to plan and methodology to ensure system functionality.",
+			"Analyzed and resolved system performance problems.",
+			"Developed test suites and procedures.",
+			"Set up the test environment according to requirements.",
+			"Participated in project communication with QA, Development, and Customer teams."
+		]
+	},
+	"a1qa (Itransition) Internship": {
+		"position": "QA Intern – Automation Testing",
+		"company": "a1qa (Itransition)",
+		"duration": "December, 2023 to March, 2024",
+		"Location": "Banani, Dhaka-1213",
+		"skills": [
+			"Developed automation tests.",
+			"Ran tests and analyzed results.",
+			"Set up and supported the environment for automated tests.",
+			"Communicated with the project team."
+		]
+	},
+	"IdeaScale Bangladesh Ltd.": {
+		"position": "Technical Support Engineer",
+		"company": "IdeaScale Bangladesh Ltd.",
+		"duration": "October, 2019 to June, 2023",
+		"Location": "Uttara, Dhaka-1230",
+		"skills": [
+			"Provided technical support via chat, email, and calls.",
+			"Created and maintained responsive landing pages for clients.",
+			"Collaborated with QA teams for manual testing and reporting.",
+			"Performed Smoke Testing and Retesting.",
+			"Diagnosed and resolved technical issues promptly.",
+			"Documented interactions and tracked defects in YouTrack."
+		]
+	},
+	"VFS Global Bangladesh (Galaxy Facilitation Services)": {
+		"position": "Customer Service Officer (Operation)",
+		"company": "VFS Global Bangladesh (Galaxy Facilitation Services)",
+		"duration": "September, 2015 to July, 2017",
+		"Location": "Gulshan-2, Dhaka-1212",
+		"skills": [
+			"Provided face-to-face customer support and phone communication.",
+			"Checked application eligibility for Thai VISA as per embassy requirements.",
+			"Handled passport and document movement between the embassy and Visa Application Center."
+		]
+	},
+	"Aristopharma Ltd.": {
+		"position": "IT Officer",
+		"company": "Aristopharma Ltd.",
+		"duration": "September, 2013 to July, 2015",
+		"Location": "Purana Palton, Dhaka-1000",
+		"skills": [
+			"Troubleshooted computers and configured LAN.",
+			"Managed website content uploads.",
+			"Took backups of systems and important documents monthly."
+		]
+	}
+}

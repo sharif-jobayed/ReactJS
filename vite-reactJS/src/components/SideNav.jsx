@@ -9,7 +9,6 @@ const SideNav = () => {
 
 	const handleNav = () => {
 		setNav(!nav);
-		console.dir(`State changed`);
 	}
 
 	return (
