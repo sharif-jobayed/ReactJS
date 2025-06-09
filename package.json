@@ -1,5 +1,7 @@
 {
   "name": "reactjs",
+  "author": "Sharif Jobayed",
+  "description": "This is a demo To-Do app to learn & practice the most basic/useful React JS and Tailwind CSS features",
   "private": true,
   "version": "0.0.0",
   "type": "module",

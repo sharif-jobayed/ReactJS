@@ -1,10 +1,31 @@
+import { useState, useEffect } from "react";
 
-const App = () => {
+import { Topbar } from "./components/Topbar";
+import { ToDosList } from "./components/ToDosList";
+import { AddToDo } from "./components/AddToDo";
+
+const App = (props) => {
+  let [taskCount, setTaskCount] = useState(0);
+  let [tasks, setTasks] = useState([]);
+
+  const addToTasks = (task) => {
+    console.log(`New task to add: ${task}`);
+    setTasks([tasks, task]);
+    setTaskCount(taskCount + 1);
+    
+    console.log(tasks);
+  }
+
+
   return (
     <>
-      <h1 className="bg-green-500">Hello, TailwindCSS is installed & working!</h1>
+      <div className="my-2 mx-auto p-2 grid grid-flow-row-dense gap-3">
+        <Topbar count={taskCount}></Topbar>
+        <ToDosList></ToDosList>
+        <AddToDo clicked={addToTasks}></AddToDo>
+      </div>
     </>
-  )
+  );
 }
 
-export {App}
+export { App }
