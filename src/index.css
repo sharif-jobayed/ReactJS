@@ -1,1 +1,81 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
+
+.todoList {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin: 2rem 0;
+}
+
+.todoList > h1 {
+	font-size: 4rem;
+}
+
+button {
+	font-size: 1.7rem;
+	font-weight: bold;
+	padding: 10px 20px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.5s ease-in-out;
+}
+
+.addButton {
+	background-color: hsl(125, 47%, 54%);
+	margin-left: 5px;
+}
+
+.addButton:hover {
+	background-color: hsl(125, 47%, 44%);
+}
+
+.deleteButton {
+	background-color: hsl(4, 61%, 51%);
+}
+
+.deleteButton:hover {
+	background-color: hsl(4, 61%, 41%);
+}
+
+.moveButton {
+	background-color: hsl(221, 58%, 49%);
+}
+
+.moveButton:hover {
+	background-color: hsl(221, 58%, 39%);
+}
+
+input[type="text"] {
+	font-size: 1.6rem;
+	padding: 10px;
+	border: 2px solid hsla(0, 0%, 80%, 0.5);
+	border-radius: 5px;
+	color: hsla(0, 0%, 0%, 0.5);
+}
+
+ol {
+	padding: 0;
+}
+
+li {
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 15px;
+	background-color: hsl(0, 0%, 97%);
+	margin-bottom: 10px;
+	border: 3px solid hsla(0, 0%, 85%, 0.75);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.text {
+	flex: 1;
+}
+
+.deleteButton, .moveButton {
+	padding: 8px, 12px;
+	font-size: 1.4rem;
+	margin-left: 5px;
+}
