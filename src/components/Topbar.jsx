@@ -10,7 +10,7 @@ const Topbar = ({ pendingCount = 0 }) => {
 				</div>
 
 				<div className="countBox">
-					<span>Pending</span>
+					<span>Todos</span>
 					<span>{pendingCount}</span>
 				</div>
 			</div>
