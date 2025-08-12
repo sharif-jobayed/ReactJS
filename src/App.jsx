@@ -18,11 +18,15 @@ const App = () => {
     setTodos(prevTodos => [...prevTodos, newTodo]);
   }
 
+  const handleDeleteTodo = (todoID) => {
+    setTodos(prevTodos => prevTodos.filter(todo => todo.id !== todoID));
+  }
+
   return (
     <>
 
       <Topbar pendingCount={todos.length} />
-      <Todos todos={todos} />
+      <Todos todos={todos} onDeleteTodo={handleDeleteTodo} />
       <NewTodo onAddTodo={handleAddTodo} />
 
     </>
