@@ -61,4 +61,5 @@
   .noTodosMessage {
     @apply mt-16 text-center text-slate-500;
   }
+  
 }
