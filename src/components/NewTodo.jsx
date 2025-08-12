@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const NewTodo = ({onAddTodo}) => {
+const NewTodo = ({ onAddTodo }) => {
 	const [todoText, setTodoText] = useState(``);
 
 	const handleInputChange = (e) => {

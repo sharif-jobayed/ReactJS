@@ -13,12 +13,12 @@ const Todos = ({ todos }) => {
 			<>
 
 				<ol className="todos">
-					{todos.map(todo => 
-						(<li key={todo.id} className="todo">
-							<input type="checkbox" name="" id="" className="todoCheckbox" />
-							<p className="todoText">{todo.text}</p>
-							<span className="deleteTodo">X</span>
-						</li>)
+					{todos.map(todo =>
+					(<li key={todo.id} className="todo">
+						<input type="checkbox" name="" id="" className="todoCheckbox" />
+						<p className="todoText">{todo.text}</p>
+						<span className="deleteTodo">X</span>
+					</li>)
 					)}
 				</ol>
 

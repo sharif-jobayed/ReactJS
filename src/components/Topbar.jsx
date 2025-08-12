@@ -1,5 +1,5 @@
 
-const Topbar = ({pendingCount = 0}) => {
+const Topbar = ({ pendingCount = 0 }) => {
 
 	return (
 		<>
