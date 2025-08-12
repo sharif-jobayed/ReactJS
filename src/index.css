@@ -62,4 +62,8 @@
     @apply mt-16 text-center text-slate-500;
   }
   
+  .todoText.completed {
+    @apply text-slate-500 line-through italic;
+  }
+
 }

@@ -22,11 +22,16 @@ const App = () => {
     setTodos(prevTodos => prevTodos.filter(todo => todo.id !== todoID));
   }
 
+  const toggleChecked = (todoID) => {
+    setTodos(prevTodos => (prevTodos.map(todo => todo.id === todoID ? { ...todo, completed: !todo.completed } : todo))
+    );
+  }
+
   return (
     <>
 
       <Topbar pendingCount={todos.length} />
-      <Todos todos={todos} onDeleteTodo={handleDeleteTodo} />
+      <Todos todos={todos} onDeleteTodo={handleDeleteTodo} onToggleTodo={toggleChecked} />
       <NewTodo onAddTodo={handleAddTodo} />
 
     </>

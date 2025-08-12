@@ -1,5 +1,5 @@
 
-const Todos = ({ todos, onDeleteTodo }) => {	
+const Todos = ({ todos, onDeleteTodo, onToggleTodo }) => {
 	if (todos.length === 0) {
 		return (
 			<>
@@ -15,9 +15,9 @@ const Todos = ({ todos, onDeleteTodo }) => {
 				<ol className="todos">
 					{todos.map(todo =>
 					(<li key={todo.id} className="todo">
-						<input type="checkbox" name="" id="" className="todoCheckbox" />
-						<p className="todoText">{todo.text}</p>
-						<span onClick={() => {onDeleteTodo(todo.id)}} className="deleteTodo">X</span>
+						<input type="checkbox" onClick={() => { onToggleTodo(todo.id) }} /*defaultChecked={false}*/ className="todoCheckbox" />
+						<p className={`todoText ${todo.completed ? 'completed' : ''}`}>{todo.text}</p>
+						<span onClick={() => { onDeleteTodo(todo.id) }} className="deleteTodo">X</span>
 					</li>)
 					)}
 				</ol>
